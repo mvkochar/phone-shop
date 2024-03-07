@@ -1,0 +1,43 @@
+.header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 345px;
+    padding-right: 345px;
+    background-color: #000FFF;
+
+    &-logo {
+        font-weight: 900;
+        font-size: 52px;
+        line-height: 140%;
+        color: #D2611E;
+        color: #bc2e1e;
+        text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+    }
+
+    &-nav-list {
+        list-style-type: none;
+        gap: 20px;
+
+        li {
+            a {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 120%;
+                text-decoration: none;
+                color:#DEB867;
+            }          
+        } 
+    }
+
+    &-products {
+        gap: 12px;
+
+        &-price {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 120%;
+            color:#bc2e1e;
+        } 
+    }
+
+}
